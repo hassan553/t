@@ -1,3 +1,5 @@
+import 'package:t/feature/auth/view/register_view.dart';
+
 import '../../feature/auth/view/login_view.dart';
 
 class AppRoutes {
@@ -9,5 +11,6 @@ class AppRoutes {
 
 var routes = {
   AppRoutes.login: (context) => const LoginView(),
+  AppRoutes.register: (context) => const RegisterView(),
 
 };

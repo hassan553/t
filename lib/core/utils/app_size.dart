@@ -1,5 +1,6 @@
 class Sizes {
   static const double s95 = 95;
+  static const double s66 = 66;
   static const double s40 = 40;
   static const double s24 = 24;
   static const double s20 = 20;

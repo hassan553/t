@@ -7,7 +7,7 @@ abstract class AppTheme {
   static const String _fontFamily = 'Montserrat';
   static ThemeData light() {
     return ThemeData.light().copyWith(
-      scaffoldBackgroundColor: AppColors.lightGrey,
+      scaffoldBackgroundColor: AppColors.offWhite,
       appBarTheme: AppBarTheme(
         centerTitle: true,
         backgroundColor: AppColors.lightGrey,

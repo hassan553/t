@@ -10,16 +10,18 @@ class CarStoreApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: const Size(360, 690),
-   builder: (_ , child) {
+      builder: (_, child) {
         return MaterialApp(
-      title: 'Car Store',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(),
-      routes: routes,
-      initialRoute: AppRoutes.login,
-      );},  );
+          title: 'Car Store',
+          theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            useMaterial3: true,
+          ),
+          home: const Scaffold(),
+          routes: routes,
+          initialRoute: AppRoutes.register,
+        );
+      },
+    );
   }
 }
