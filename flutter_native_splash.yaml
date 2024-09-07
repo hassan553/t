@@ -2,11 +2,11 @@ flutter_native_splash:
   android: true
   ios: true
   web: true
-  desktop: true
+
   
   color: "#0D6EFD"
   #background_image: "assets/background.png"
-  #image: assets/splash.png
+  image: assets/images/splash.png
   #branding: assets/dart.png
   #branding_mode: bottom
   # branding_bottom_padding: 24
